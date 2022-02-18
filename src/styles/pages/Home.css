@@ -1,0 +1,8 @@
+.Image-slider {
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #065064;
+    color: white;
+}

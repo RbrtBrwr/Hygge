@@ -1,12 +1,11 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-import Dog from './assets/images/work.jpeg'
+import { App } from "./routes/App";
 import './styles/index.css'
 
 ReactDOM.render(
     <div>
-        <h1>A TRABAJAR</h1>
-        <img src={Dog} />
+        <App />
     </div>,
     document.getElementById('root')
 );
