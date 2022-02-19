@@ -5,6 +5,19 @@ header {
     font-size: 1.8rem;
     height: 6rem;
     padding-left: 2rem;
+    margin: 1rem 0;
+}
+header .Logo-icon {
+    height: inherit;
+}
+header .Logo-icon img {
+    height: inherit;
+}
+header .Menu-icon {
+    width: 5rem;
+}
+header .Menu-icon img {
+    width: inherit;
 }
 
 @media (max-width:600px) {
