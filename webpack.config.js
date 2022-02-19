@@ -36,6 +36,12 @@ module.exports = {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
       },
+      {
+        test: /\.mp4$/,
+        use: {
+          loader: 'file-loader',
+        }
+      }
     ],
   },
   plugins: [
@@ -51,7 +57,7 @@ module.exports = {
     historyApiFallback: true,
     static: path.join(__dirname, 'dist'),
     compress: true,
-    port: 3005,
+    port: 3006,
     open: true,
   },
 };

@@ -3,6 +3,7 @@ import '../../styles/components/Landing/HomeContent.css'
 import { AboutHygge } from './AboutHygge'
 import { AboutUs } from './AboutUs'
 import { HyggeDescription } from './HyggeDescription'
+import { VideoPlayer } from './VideoPlayer'
 
 const HomeContent = () => {
     return (
@@ -10,6 +11,7 @@ const HomeContent = () => {
             <AboutHygge />
             <HyggeDescription />
             <AboutUs />
+            <VideoPlayer />
         </div>
     )
 }
