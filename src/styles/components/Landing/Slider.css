@@ -1,8 +1,12 @@
+:root {
+    --white: #ffffff;
+}
+
 .Image-slider .swiper-button-next,
 .Image-slider .swiper-button-prev {
-    color: white;
+    color: var(--white);
 }
 .Image-slider .swiper-pagination-bullet,
 .Image-slider .swiper-pagination-bullet-active {
-     background-color: white;
+     background-color: var(--white);
  }

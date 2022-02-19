@@ -20,7 +20,7 @@ header .Menu-icon img {
     width: inherit;
 }
 
-@media (max-width:600px) {
+@media (max-width:599px) {
     .Navbar-container {
         display: none;
     }

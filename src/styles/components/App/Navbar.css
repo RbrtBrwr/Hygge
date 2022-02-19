@@ -1,3 +1,8 @@
+:root {
+    --mid-dark-blue: #065064;
+    --white: #ffffff;
+}
+
 .Navbar-container {
     width: 50%;
     min-width: 30rem;
@@ -14,7 +19,7 @@
 }
 
 .Navbar-container .Navbar-list .Navbar-element {
-    width: 25%;
+    width: 33%;
     height: inherit;
     display: flex;
     justify-content: center;
@@ -23,6 +28,6 @@
 }
 
 .Navbar-container .Navbar-list .Navbar-element:hover {
-    background-color: #065064;
-    color: white;
+    background-color: var(--mid-dark-blue);
+    color: var(--white);
 }

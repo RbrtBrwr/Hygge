@@ -2,7 +2,7 @@ import React from 'react';
 import { Header } from './Header';
 import { Footer } from './Footer';
 
-const Layout = ({ children }) => {
+const LandingLayout = ({ children }) => {
   return (
     <div className="Main-container">
       <Header />
@@ -12,4 +12,4 @@ const Layout = ({ children }) => {
   );
 };
 
-export { Layout };
+export { LandingLayout };

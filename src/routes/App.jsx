@@ -1,16 +1,16 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Layout } from '../container/Layout';
+import { LandingLayout } from '../container/LandingLayout'
 import { Home } from '../pages/Home';
 
 const App = () => {
   return (
     <BrowserRouter>
-      <Layout>
+      <LandingLayout>
         <Routes>
           <Route path={'/'} element={<Home />} />
         </Routes>
-      </Layout>
+      </LandingLayout>
     </BrowserRouter>
   );
 };
