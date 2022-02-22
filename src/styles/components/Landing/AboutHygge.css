@@ -1,0 +1,41 @@
+:root {
+    --mid-dark-blue: #065064;
+    --white: #ffffff;
+}
+
+.AboutHygge-intro {
+    margin: 1rem 0.5rem;
+    padding: 1.5rem 2rem;
+    color: var(--mid-dark-blue);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+}
+.AboutHygge-intro .AboutHygge-intro-info {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.AboutHygge-intro .Small-Logo {
+    height: 15rem;
+}
+.AboutHygge-intro .Small-Logo img {
+    height: 15rem;
+}
+
+@media (max-width:999px) {
+    span {
+        display: none;
+    }
+}
+@media (min-width:680px) {
+    .AboutHygge-intro {
+        width: 48%;
+        order: 1;
+    }
+    .AboutHygge-intro:hover {
+        box-shadow: 0.8rem 0.4rem 0.5rem var(--mid-dark-blue);
+    }
+}
