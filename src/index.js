@@ -4,8 +4,6 @@ import { App } from './routes/App';
 import './styles/index.css';
 
 ReactDOM.render(
-  <div>
-    <App />
-  </div>,
+  <App />,
   document.getElementById('root')
 );
