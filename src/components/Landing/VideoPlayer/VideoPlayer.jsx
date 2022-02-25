@@ -1,5 +1,5 @@
 import React from 'react'
-import beachVideo from '../../../assets/videos/Beach.mp4'
+import forestVideo from '../../../assets/videos/Forest.mp4'
 import smallLogo from '../../../assets/logos/logo-small-white.png'
 import './VideoPlayer.css'
 
@@ -9,10 +9,10 @@ const VideoPlayer = () => {
             <figure className='Video-player-logo'>
                 <img src={smallLogo} alt="Hygge's Logo" />
             </figure>
-            <video className='Home-video' id='Home-video' autoPlay={true} muted>
-                <source src={beachVideo} />
+            <video className='Home-video' id='Home-video' loop autoPlay={true} muted>
+                <source src={forestVideo} />
             </video>
-            <p>Ingresa y encuentra que aventuras te deparan con nosotros</p>
+            <p>Ingresa y encuentra qué aventuras te deparan con nosotros</p>
         </div>
     )
 }
