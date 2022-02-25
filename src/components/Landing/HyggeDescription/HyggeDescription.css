@@ -1,8 +1,3 @@
-:root {
-    --mid-dark-blue: #065064;
-    --white: #ffffff;
-}
-
 .Hygge-description {
     width: 100%;
     background-color: var(--mid-dark-blue);

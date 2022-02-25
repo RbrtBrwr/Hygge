@@ -1,6 +1,6 @@
 import React from 'react'
-import unimetLogo from '../../assets/logos/Unimet.png'
-import '../../styles/components/Landing/AboutUs.css'
+import unimetLogo from '../../../assets/logos/Unimet.png'
+import './AboutUs.css'
 
 const AboutUs = () => {
     return (

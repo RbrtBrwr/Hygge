@@ -1,8 +1,8 @@
 import React from 'react';
-import { Navbar } from '../components/App/Navbar';
-import Menu from '../assets/images/Menu.png'
-import logoFullBlack from '../assets/logos/logo-full-black.png'
-import '../styles/container/Header.css';
+import { Navbar } from '../../components/App/Navbar';
+import Menu from '../../assets/images/Menu.png'
+import logoFullBlack from '../../assets/logos/logo-full-black.png'
+import './Header.css';
 
 const Header = () => {
   return (

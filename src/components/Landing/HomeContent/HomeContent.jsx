@@ -1,9 +1,9 @@
 import React from 'react'
-import '../../styles/components/Landing/HomeContent.css'
-import { AboutHygge } from './AboutHygge'
-import { AboutUs } from './AboutUs'
-import { HyggeDescription } from './HyggeDescription'
-import { VideoPlayer } from './VideoPlayer'
+import { AboutHygge } from '../AboutHygge/AboutHygge'
+import { AboutUs } from '../AboutUs/AboutUs'
+import { HyggeDescription } from '../HyggeDescription/HyggeDescription'
+import { VideoPlayer } from '../VideoPlayer/VideoPlayer'
+import './HomeContent.css'
 
 const HomeContent = () => {
     return (

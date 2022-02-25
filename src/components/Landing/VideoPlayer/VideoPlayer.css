@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content:space-evenly;
     text-align: center;
-    background-color: var(--dark-blue);
+    background-color: var(--dark-green);
     color: var(--white);
 }
 .Video-player p {

@@ -1,7 +1,7 @@
 import React from 'react';
-import { Slider } from '../components/Landing/Slider';
-import { HomeContent } from '../components/Landing/HomeContent';
-import '../styles/pages/Home.css';
+import { Slider } from '../../components/Landing/Slider/Slider';
+import { HomeContent } from '../../components/Landing/HomeContent/HomeContent';
+import './Home.css';
 
 const Home = () => {
   return (

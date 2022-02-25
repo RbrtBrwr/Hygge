@@ -1,8 +1,8 @@
 import React from 'react'
-import houseIcon from '../../assets/logos/House-icon.png'
-import starIcon from '../../assets/logos/Star-icon.png'
-import phoneIcon from '../../assets/logos/Phone-icon.png'
-import '../../styles/components/Landing/HyggeDescription.css'
+import houseIcon from '../../../assets/logos/House-icon.png'
+import starIcon from '../../../assets/logos/Star-icon.png'
+import phoneIcon from '../../../assets/logos/Phone-icon.png'
+import './HyggeDescription.css'
 
 const HyggeDescription = () => {
     return (
