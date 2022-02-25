@@ -1,7 +1,7 @@
 import React from 'react'
-import beachVideo from '../../assets/videos/Beach.mp4'
-import smallLogo from '../../assets/logos/logo-small-white.png'
-import '../../styles/components/Landing/VideoPlayer.css'
+import beachVideo from '../../../assets/videos/Beach.mp4'
+import smallLogo from '../../../assets/logos/logo-small-white.png'
+import './VideoPlayer.css'
 
 const VideoPlayer = () => {
     return (

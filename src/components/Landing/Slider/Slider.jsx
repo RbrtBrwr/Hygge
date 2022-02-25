@@ -1,11 +1,11 @@
 import React from 'react'
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import beach from '../../assets/images/image-beach.jpg'
-import forest from '../../assets/images/image-forest.jpg'
-import mountains from '../../assets/images/image-mountains.jpg'
-import lakeHouse from '../../assets/images/image-lake-house.jpg'
-import '../../styles/components/Landing/Slider.css'
+import beach from '../../../assets/images/image-beach.jpg'
+import forest from '../../../assets/images/image-forest.jpg'
+import mountains from '../../../assets/images/image-mountains.jpg'
+import lakeHouse from '../../../assets/images/image-lake-house.jpg'
+import './Slider.css'
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';

@@ -1,7 +1,3 @@
-:root {
-    --white: #ffffff;
-}
-
 .Image-slider .swiper-button-next,
 .Image-slider .swiper-button-prev {
     color: var(--white);

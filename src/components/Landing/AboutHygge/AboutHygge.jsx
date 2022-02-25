@@ -1,6 +1,6 @@
 import React from 'react'
-import smallLogo from '../../assets/logos/logo-small-black.png'
-import '../../styles/components/Landing/AboutHygge.css'
+import smallLogo from '../../../assets/logos/logo-small-black.png'
+import './AboutHygge.css'
 
 const AboutHygge = () => {
     return (
